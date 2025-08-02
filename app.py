@@ -15,7 +15,7 @@ st.write("Get movie suggestions based on your favorite film!")
 # Load dataset
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r"D:\Projects\Acemgrade\Movie Recommendation System\movies.csv")
+    data = pd.read_csv(r"movies.csv")
     data.fillna("", inplace=True)
     data["combined_features"] = (
         data["genres"]
@@ -74,3 +74,4 @@ if st.button("Recommend"):
             st.success(f"Movies similar to **{matched}**:")
             for i, title in enumerate(recommendations, 1):
                 st.write(f"{i}. {title}")
+
