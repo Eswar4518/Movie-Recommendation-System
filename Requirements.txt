@@ -1,0 +1,6 @@
+Required libraries:
+
+-----------------Streamlit - frontend
+-----------------Pandas - for data manipulation
+-----------------NumPy - for numerical calculations
+-----------------Sklearn - for ML model
