@@ -1,7 +1,8 @@
 Required libraries:
 
------------------Streamlit - frontend
------------------Pandas - for data manipulation
------------------NumPy - for numerical calculations
------------------scikit-learn - for ML model
+Streamlit
+Pandas
+NumPy
+scikit-learn 
+
 
